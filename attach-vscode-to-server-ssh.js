@@ -3,8 +3,6 @@
 // Author: John Lindquist
 // Twitter: @johnlindquist
 
-// Note: Feel free to delete this script!
-
 import "@johnlindquist/kit";
 import { Client } from 'hetzner-cloud-js';
 import { NodeSSH } from 'node-ssh';
