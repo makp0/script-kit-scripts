@@ -9,7 +9,7 @@ const data = await getDb();
 const host = data.host;
 
 if (!host) {
-    await div(md(`No previous session found.`))
+    await div(md(`No previous sessions found.`))
 }
 
 await attachVSCode(host);
